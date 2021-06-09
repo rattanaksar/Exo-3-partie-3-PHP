@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Exo 3 : Les conditions</h1>
+    <p>
     <?php
     $age = 19;
     $gender = "Homme";
@@ -27,5 +28,6 @@
     }
     }
     ?>
+    </p>
 </body>
 </html>
