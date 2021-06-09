@@ -9,21 +9,21 @@
 <body>
     <h1>Exo 3 : Les conditions</h1>
     <?php
-    $age = 5;
+    $age = 19;
     $gender = "Homme";
 
     if ($age <= 18) {
     if ($gender === "Femme") {
-        var_dump("Vous êtes une femme et vous êtes mineure");
+        echo"Vous êtes une femme et vous êtes mineure";
     } else {
-        var_dump("Vous êtes un homme et vous êtes mineur");
+        echo"Vous êtes un homme et vous êtes mineur";
     }
     }
     if ($age > 18) {
     if ($gender === "Femme") {
-        var_dump("Vous êtes une femme et vous êtes majeure");
+        echo"Vous êtes une femme et vous êtes majeure";
     }else {
-        var_dump("Vous êtes un homme et vous êtes majeur");
+        echo"Vous êtes un homme et vous êtes majeur";
     }
     }
     ?>
