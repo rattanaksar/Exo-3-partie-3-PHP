@@ -13,7 +13,7 @@
     $age = 19;
     $gender = "Homme";
 
-    if ($age <= 18) {
+    if ($age < 18) {
     if ($gender === "Femme") {
         echo"Vous êtes une femme et vous êtes mineure";
     } else {
